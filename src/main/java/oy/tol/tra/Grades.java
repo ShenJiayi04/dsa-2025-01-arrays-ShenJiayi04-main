@@ -23,7 +23,7 @@ public class Grades {
    /**
     * The method to reverse the internal Java int array.
     */
-    public  <T> void reverse(T [] array) {
+   public void reverse() {
       /* TODO:
        1. Edit the test data files to see if the reverse() really works or not.
        2. Execute the IntArrayTests to see that some of them fail.
@@ -44,7 +44,7 @@ public class Grades {
    /**
     * Sorts the array to ascending order.
     */
-    public  <T extends Comparable<T>> void sort(T [] array) {
+   public void sort() {
       /* TODO:
        1. Edit the test data files to see if the sort() really works or not.
        2. Execute the IntArrayTests to see that some of them fail.
